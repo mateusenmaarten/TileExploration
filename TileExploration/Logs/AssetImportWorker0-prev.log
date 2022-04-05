@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.556; Version 2009; 64bit' Language: 'en' Physical Memory: 32728 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Unity Editors\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/PROJECTS/TileExploration/TileExploration
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65185
+Successfully changed project path to: D:/PROJECTS/TileExploration/TileExploration
+D:/PROJECTS/TileExploration/TileExploration
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Unity Editors/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/PROJECTS/TileExploration/TileExploration/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Unity Editors/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity Editors/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity Editors/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity Editors/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity Editors/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001792 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 2.131000 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.734600 ms  DeleteObjects: 0.137900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Action.cs
+  artifactKey: Guid(1e75ede97747aa74cb74d724c1429264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Action.cs using Guid(1e75ede97747aa74cb74d724c1429264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e356ba2f48670a5942583a620d49a2d') in 0.038035 seconds
+  Import took 0.041080 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 1.893200 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.585200 ms  DeleteObjects: 0.093100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 539.281575 seconds.
+  path: Assets/ScriptableObjects/Tiles/FogTileBasic.asset
+  artifactKey: Guid(eb27d1ddd3ec7434eadf7e23fbe8187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Tiles/FogTileBasic.asset using Guid(eb27d1ddd3ec7434eadf7e23fbe8187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa322760f2e57b631c1b057beb1d762') in 0.024423 seconds
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.629554 seconds.
+  path: Assets/Resources/FogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The script 'FogTile' does not derive from MonoBehaviour, but has been added to Game Object 'FogTile'. Please remove the script from the Game Object to avoid crashes.
+
+ -> (artifact id: '326115e8962796f5dba89e74e02a1910') in 0.086097 seconds
+  Import took 0.094261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1038.685424 seconds.
+  path: Assets/Scripts/GameFogTile.cs
+  artifactKey: Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameFogTile.cs using Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462faf5d36e76013253d547d8c150bc') in 0.008497 seconds
+  Import took 0.017218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006592 seconds.
+  path: Assets/Scripts/GameFogTile.cs
+  artifactKey: Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameFogTile.cs using Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462faf5d36e76013253d547d8c150bc') in 0.004011 seconds
+  Import took 0.006858 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 1.891000 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.059300 ms MarkObjects: 1.589600 ms  DeleteObjects: 0.088900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.779194 seconds.
+  path: Assets/Scripts/TileManager.cs
+  artifactKey: Guid(8738c3c123eac994d92cd1e212251e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileManager.cs using Guid(8738c3c123eac994d92cd1e212251e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe64292360382ef34b383c9a66a16a') in 0.012027 seconds
+  Import took 0.020811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 1.941200 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.612800 ms  DeleteObjects: 0.108200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 732.956379 seconds.
+  path: Assets/Scripts/GameTileManager.cs
+  artifactKey: Guid(8738c3c123eac994d92cd1e212251e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameTileManager.cs using Guid(8738c3c123eac994d92cd1e212251e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9085930c77526c12c6f90b67f93b89b') in 0.009475 seconds
+  Import took 0.012959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629852 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The script 'FogTile' does not derive from MonoBehaviour, but has been added to Game Object 'GameFogTile'. Please remove the script from the Game Object to avoid crashes.
+
+ -> (artifact id: '9dc27dc8435c554d781e5393d3c5bfe9') in 0.061191 seconds
+  Import took 0.063960 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 1.897300 ms (FindLiveObjects: 0.144300 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.603600 ms  DeleteObjects: 0.088800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.757475 seconds.
+  path: Assets/Scripts/GameFogTile.cs
+  artifactKey: Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameFogTile.cs using Guid(36766681d837f5742b2cadf3db7698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb03323b44ce0e5ddf12d3807317bcc') in 0.006147 seconds
+  Import took 0.009085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.090083 seconds.
+  path: Assets/Resources/FogAction.prefab
+  artifactKey: Guid(990bf63bcbec3d946a0a7badc97805a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FogAction.prefab using Guid(990bf63bcbec3d946a0a7badc97805a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efc75d31e9cf5b0a8bc776729ced0e7') in 0.056745 seconds
+  Import took 0.059473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038674 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e0a5982dfc869f2789c28512520551') in 0.019760 seconds
+  Import took 0.023344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003183 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e0a5982dfc869f2789c28512520551') in 0.013058 seconds
+  Import took 0.015758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 2.044600 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.605200 ms  DeleteObjects: 0.237200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.363273 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353dec0d0ffd7112cfc02ac1e1e75000') in 0.057648 seconds
+  Import took 0.060348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 1.933200 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.638400 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 1.888600 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.072500 ms MarkObjects: 1.575900 ms  DeleteObjects: 0.091600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 410.030087 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09aa335b39949d5a9dfe2c883f4059f5') in 0.054867 seconds
+  Import took 0.057514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 1.834200 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.520400 ms  DeleteObjects: 0.096400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.153816 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681fd74f56b8e4ed5cf4fc2f7a6f54bc') in 0.062126 seconds
+  Import took 0.070274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.910866 seconds.
+  path: Assets/Resources/GameTile.prefab
+  artifactKey: Guid(f2e178d37c07efb4aa4ea773253a55cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameTile.prefab using Guid(f2e178d37c07efb4aa4ea773253a55cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1f4e73c2621cee1da7d3520ad5ffff') in 0.008668 seconds
+  Import took 0.011665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.223195 seconds.
+  path: Assets/Resources/GameFogTile.prefab
+  artifactKey: Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameFogTile.prefab using Guid(d3aa76a5587276241b522f845108725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56482bf263a5e0ed5239b8603aab17e3') in 0.017470 seconds
+  Import took 0.020559 seconds .
+
