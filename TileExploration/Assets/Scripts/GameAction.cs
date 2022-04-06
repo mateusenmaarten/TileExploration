@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameAction : MonoBehaviour
 {
+    [SerializeField]
+    private GameTileManager _gameTileManager;
+
     public Action Action;
     public GameAction(Action action)
     {
@@ -12,7 +15,15 @@ public class GameAction : MonoBehaviour
 
     private void Awake()
     {
-
+        var gtm = GameObject.Find("TileManager").GetComponent<GameTileManager>();
+        if (gtm == null)
+        {
+            Debug.Log("GTM is NULL");
+        }
+        else
+        {
+            _gameTileManager = gtm;
+        }
     }
     void OnMouseDown()
     {
@@ -20,19 +31,18 @@ public class GameAction : MonoBehaviour
         if (Action.ActionType == ActionType.Explore)
         {
             //Check for succes or fail
-            
-            //foreach (var tile in _gameTileManager.AllTilesInGame)
-            //{
-                
-            //    if (tile.Position == (Vector2)this.transform.parent.position)
-            //    {
-            //        Instantiate(_gameTile, new Vector3(tile.Position.x, tile.Position.y, 0), Quaternion.identity);
-            //        //_gameTile.Tile = tile;
-            //        Debug.Log("Found it!");
-            //        Destroy(this.gameObject);
-            //    }
-            //}
-            
+
+            foreach (var tile in _gameTileManager.AllTilesInGame)
+            {
+
+                if (tile.Position == (Vector2)this.transform.parent.position)
+                {
+                    _gameTileManager.CreateGameTile(tile, _gameTileManager.AllFogTilesForGame[0]);
+                    Debug.Log("Found it!");
+                    Destroy(this.gameObject.transform.parent.gameObject);
+                }
+            }
+
         }
         //Do Action 
     }
