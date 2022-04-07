@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ee43391f1e6ef45ac241c653f28ac3, type: 3}
+  m_Name: 8 StartTile
+  m_EditorClassIdentifier: 
+  Id: e9c8d5a5-a936-462a-8b1e-2625d3fd4bb5
+  TileSprite: {fileID: 21300000, guid: cabd9ecaacf85364987154eca757cef5, type: 3}
+  TileActions:
+  - {fileID: 11400000, guid: 5ab5ce213df583a439fb106a6ebbb12a, type: 2}
+  - {fileID: 11400000, guid: 1ea2862f3a04e774bb25c1fc64322b23, type: 2}
+  Position: {x: 0, y: 0}
+  FogNorth: 1
+  FogEast: 1
+  FogSouth: 1
+  FogWest: 1

@@ -123,6 +123,65 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &267842088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 267842089}
+  - component: {fileID: 267842090}
+  m_Layer: 0
+  m_Name: MapCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &267842089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267842088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 443509281}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &267842090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267842088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1994eb37fd53347a58549fee339ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tiles:
+  - {fileID: 11400000, guid: a810137e0a23ac741809f22fbe7dc620, type: 2}
+  - {fileID: 11400000, guid: 33e2f9ba41662fc4188e0b8f9c025815, type: 2}
+  - {fileID: 11400000, guid: 3ac18bd9023b3b14a912bff997089fd6, type: 2}
+  - {fileID: 11400000, guid: c3bc96b3ed306c347bd8c88f41a088df, type: 2}
+  - {fileID: 11400000, guid: 0a3b999aabec8f942b4cf15eb956c375, type: 2}
+  - {fileID: 11400000, guid: 8bd8c4bf93055434b94a8176d7119473, type: 2}
+  - {fileID: 11400000, guid: 08d1981171916f84caca42b2be4f47e4, type: 2}
+  - {fileID: 11400000, guid: e3429f7d724d2714aacde17475a6f868, type: 2}
+  - {fileID: 11400000, guid: 3d2dcade21ffd4d49982f340fd4a4480, type: 2}
+  - {fileID: 11400000, guid: 6bbeb255d6e740f4a9e804b7fb4774c3, type: 2}
+  - {fileID: 11400000, guid: b9655c2e5df796242bed00729fc1c928, type: 2}
+  - {fileID: 11400000, guid: cd3d6d1e23d08414886db1b91f2da86b, type: 2}
+  - {fileID: 11400000, guid: 2ab4ca63d782c3b4bbe00c71d0bd0a61, type: 2}
+  - {fileID: 11400000, guid: 760b007d9e5833b478181727988a93ff, type: 2}
+  - {fileID: 11400000, guid: 8c9d8fee637a8a44da9296fd002cf89e, type: 2}
 --- !u!1 &443509280
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,6 +211,7 @@ Transform:
   m_Children:
   - {fileID: 1696897952}
   - {fileID: 696449488}
+  - {fileID: 267842089}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -330,13 +390,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startingTilePosition: {x: 0, y: 0}
   objectFactory: {fileID: 696449489}
+  mapCreator: {fileID: 267842090}
   StartingTile: {fileID: 11400000, guid: e3429f7d724d2714aacde17475a6f868, type: 2}
   StartingFogTile: {fileID: 11400000, guid: e4cc4f452cd93954c83bcf760b7bffd8, type: 2}
-  AllTilesInGame:
-  - {fileID: 11400000, guid: e3429f7d724d2714aacde17475a6f868, type: 2}
-  - {fileID: 11400000, guid: 3d2dcade21ffd4d49982f340fd4a4480, type: 2}
-  AllFogTilesForGame:
-  - {fileID: 11400000, guid: e4cc4f452cd93954c83bcf760b7bffd8, type: 2}
+  AllTilesInLevel: []
+  AllFogTilesForLevel: []
   OpenTilePositions: []
   OpenFogTilePositions: []
   _tileOffset: 3

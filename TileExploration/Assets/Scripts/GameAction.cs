@@ -31,18 +31,15 @@ public class GameAction : MonoBehaviour
         if (Action.ActionType == ActionType.Explore)
         {
             //Check for succes or fail
-
-            foreach (var tile in _gameTileManager.AllTilesInGame)
+            foreach (var tile in _gameTileManager.AllTilesInLevel)
             {
-
-                if (tile.Position == (Vector2)this.transform.parent.position)
+                if (tile.Position == (Vector2)(this.transform.parent.position))
                 {
-                    _gameTileManager.CreateGameTile(tile, _gameTileManager.AllFogTilesForGame[0]);
+                    _gameTileManager.CreateGameTile(tile, _gameTileManager.AllFogTilesForLevel[0]);
                     Debug.Log("Found it!");
                     Destroy(this.gameObject.transform.parent.gameObject);
                 }
             }
-
         }
         //Do Action 
     }
