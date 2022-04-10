@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameAction : MonoBehaviour
 {
     [SerializeField]
     private GameTileManager _gameTileManager;
+    [SerializeField]
+    private ActionManager _actionManager;
 
     public Action Action;
+    private GameObject _tooltip;
     public GameAction(Action action)
     {
         Action = action;
@@ -23,6 +27,15 @@ public class GameAction : MonoBehaviour
         else
         {
             _gameTileManager = gtm;
+        }
+        var am = GameObject.Find("ActionManager").GetComponent<ActionManager>();
+        if (am == null)
+        {
+            Debug.Log("AM is NULL");
+        }
+        else
+        {
+            _actionManager = am;
         }
     }
     void OnMouseDown()
@@ -44,6 +57,10 @@ public class GameAction : MonoBehaviour
         //Do Action 
     }
 
+    private void OnMouseEnter()
+    {
+        _tooltip = Instantiate(_actionManager.TooltipPrefab,this.transform.parent.position, Quaternion.identity);
+    }
     private void OnMouseOver()
     {
         Debug.Log("Showing Tooltip");
@@ -54,5 +71,6 @@ public class GameAction : MonoBehaviour
     {
         Debug.Log("Tooltip No longer visible");
         //Destroy Tooltip
+        Destroy(_tooltip);
     }
 }

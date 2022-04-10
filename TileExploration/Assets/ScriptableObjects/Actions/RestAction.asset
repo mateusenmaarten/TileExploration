@@ -16,3 +16,5 @@ MonoBehaviour:
   ActionIcon: {fileID: 21300000, guid: 65087a954e7560848811cc83cbed5100, type: 3}
   ActionType: 4
   Position: 8
+  ActionCost: 1
+  StarsNeeded: 1

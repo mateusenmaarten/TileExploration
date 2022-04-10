@@ -12,10 +12,12 @@ public class ObjectFactory : MonoBehaviour
     private GameAction _gameActionPrefab;
     [SerializeField]
     private ActionPositionManager _apm;
+    [SerializeField]
+    private Canvas _gameBoard;
 
     public GameTile CreateGameTile(Tile tile, FogTile fogTile)
     {
-        GameTile gameTile = Instantiate(_gameTilePrefab, new Vector2(), Quaternion.identity).GetComponent<GameTile>();
+        GameTile gameTile = Instantiate(_gameTilePrefab,_gameBoard.transform).GetComponent<GameTile>();
         gameTile.Tile = tile;
         gameTile.FogTile = fogTile;
         gameTile.GetComponent<SpriteRenderer>().sprite = tile.TileSprite;
@@ -24,7 +26,7 @@ public class ObjectFactory : MonoBehaviour
     }
     public GameTile CreateGameFogTile(Tile tile)
     {
-        GameFogTile gameFogTile = Instantiate(_fogTilePrefab, new Vector2(), Quaternion.identity).GetComponent<GameFogTile>();
+        GameFogTile gameFogTile = Instantiate(_fogTilePrefab, _gameBoard.transform).GetComponent<GameFogTile>();
         gameFogTile.Tile = tile;
         gameFogTile.FogTile = null;
         gameFogTile.GetComponent<SpriteRenderer>().sprite = tile.TileSprite;
@@ -42,7 +44,7 @@ public class ObjectFactory : MonoBehaviour
             sprite.sprite = tileAction.ActionIcon;
             if (ga.Action.name != "ExploreAction")
             {
-                ga.transform.position = _apm.GetPositionOnTile(ga.Action.Position);
+                ga.transform.position = _apm.GetPositionOnTile(ga.Action.Position, parent.transform.position);
             }
             else
             {

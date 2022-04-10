@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3493889055574903380}
   - component: {fileID: 3493889055574903382}
   - component: {fileID: 3493889055574903383}
-  m_Layer: 6
+  m_Layer: 5
   m_Name: GameTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 2.55, y: 2.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3493889055574903380
 MonoBehaviour:
@@ -50,13 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b96a8e285c41140b8de55328a96a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameActionPrefab: {fileID: 7398793013640132288, guid: c82515b0a339e1e4aaf1fece1b5a5ed7, type: 3}
-  FogActionPrefab: {fileID: 5925141147567042290, guid: 990bf63bcbec3d946a0a7badc97805a8, type: 3}
-  FogTilePrefab: {fileID: 4124271970493653838, guid: d3aa76a5587276241b522f845108725f, type: 3}
-  Actions: []
   Tile: {fileID: 0}
   FogTile: {fileID: 0}
-  _tileOffset: 3
+  GameActions: []
 --- !u!222 &3493889055574903382
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -105,7 +101,7 @@ SpriteRenderer:
   m_SortingLayerID: -1581577057
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cabd9ecaacf85364987154eca757cef5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,6 +109,6 @@ SpriteRenderer:
   m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
